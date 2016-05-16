@@ -1,0 +1,3 @@
+
+
+C is quirky, flawed, and an enormous success. Although accidents tof histiry surely helped, it evidently satisfied a need for system implementation languange efficient enough to displace assembly language, yet sufficiently abstract abd fluent to describe algorithims and interactions in a wide variety of environments.  -- Dennis M. Ritchie

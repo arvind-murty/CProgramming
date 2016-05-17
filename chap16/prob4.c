@@ -33,8 +33,8 @@ int main(void)
     {
         printf("Enter operation code: ");
         char code;
-        scanf("%c", &code);
-        while (getchar() != '\n')
+        code = getchar();
+        while (code != '\n')
         {
         }
         switch (code)

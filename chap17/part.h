@@ -16,6 +16,7 @@ typedef struct part Part;
 
 Part *find_part(int number);
 void insert();
+void erase();
 void search();
 void update();
 void print();

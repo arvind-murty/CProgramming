@@ -59,6 +59,34 @@ void insert()
 }
 
 
+void erase()
+{
+    Part *cur;
+    Part *prev;
+    int number;
+    printf("Enter part number: ");
+    scanf("%d", &number);
+    for (prev = NULL, cur = inventory; cur != NULL && cur->number != number; prev = cur, cur = cur->next)
+    {
+    }
+
+    if (cur == NULL)
+    {
+        printf("Part not found\n");
+        return;
+    }
+    if (prev != NULL)
+    {
+        prev->next = cur->next;
+    }
+    else
+    {
+        inventory = cur->next;
+    }
+    free(cur);
+}
+
+
 void search()
 {
     int number;

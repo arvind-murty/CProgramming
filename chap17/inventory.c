@@ -23,6 +23,9 @@ int main()
             case 's':
                 search();
                 break;
+            case 'e':
+                erase();
+                break;
             case 'u':
                 update();
                 break;
